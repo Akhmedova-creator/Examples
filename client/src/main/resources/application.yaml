@@ -1,0 +1,17 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
+
+eureka:
+  instance:
+    status-page-url-path: /
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    preferIpAddress: true
+spring:
+  application:
+    name: client
+
