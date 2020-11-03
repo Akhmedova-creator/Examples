@@ -8,6 +8,7 @@ import lombok.Data;
  */
 public class CamundaProcess {
     public String process;
+
     String id;
     String definitionId;
     String businessKey;
@@ -15,6 +16,4 @@ public class CamundaProcess {
     Boolean ended;
     Boolean suspended;
     String tenantId;
-
-
 }

@@ -8,13 +8,15 @@ camunda.bpm.admin-user:
 
 eureka:
   instance:
+#    hostname: client
     status-page-url-path: /
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
     preferIpAddress: true
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
+
 spring:
   application:
     name: client
