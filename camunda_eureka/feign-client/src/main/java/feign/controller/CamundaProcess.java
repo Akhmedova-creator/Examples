@@ -14,7 +14,7 @@ import javax.persistence.Id;
  * Element processes.
  */
 @Entity
-@Table(name = "camunda_process")
+@Table(name = "process")
 public class CamundaProcess {
     @Id
     @GeneratedValue(generator = "system-uuid")

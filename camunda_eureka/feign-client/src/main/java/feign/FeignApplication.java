@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@Configuration
-@EnableAutoConfiguration
 /**
  * start Feig-Client.
  */
